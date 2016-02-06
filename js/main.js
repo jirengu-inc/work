@@ -85,6 +85,7 @@ var Resize = {
 				});
 			}
 		});
+		
 		$('.works-ct').on('mouseenter', '.work', function() {
 			if ($(this).hasClass('next') || $(this).hasClass('pre') || $(this).hasClass('empty')) return;
 			if ($(this).find('.user').text() === '') return;
