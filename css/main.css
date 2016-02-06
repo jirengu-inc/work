@@ -17,7 +17,7 @@ ul,li{
 }
 
 a{
-    color: #333;
+    color: #666;
     text-decoration: none;
 }
 
@@ -359,6 +359,7 @@ html,body{
     color: #fff;
     font-size: 12px;
     border-radius: 3px;
+    margin-right: 5px;
 }
 .word {
     text-transform: uppercase;
