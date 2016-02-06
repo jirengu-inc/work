@@ -20,9 +20,11 @@
         <div class="img-ct">
             <img src="{{imgUrl}}" alt="{{username}}的作品"/>
         </div>
+        <a href="{{workLink}}">
         <div class="cover" style="background-color: {{coverColor}}">
             <span class="word">{{coverWord}}</span>
         </div>
+        </a>
         <div class="hover">
             <a href="{{userLink}}" class="user">{{username}}</a>
             <div class="vote">
@@ -54,7 +56,7 @@
     <script id="empty-template" type="x-tmpl-mustache">
     <li class="work empty col-vty-6 col-ty-4 col-sm-3 col-md-2">
         <div class="cover">
-            <span class="word">待添加</span>
+            <span class="word">+</span>
         </div>
     </li>
     </script>

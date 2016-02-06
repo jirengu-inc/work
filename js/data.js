@@ -1,5 +1,6 @@
 //http://7xnk1s.com2.z0.glb.qiniucdn.com/work-1.png
-var data = [{
+var data = [
+{
 		imgUrl: 'imgs/1.png',
 		type: 'a',
 		coverColor: '#b2c8d3',
@@ -60,147 +61,153 @@ var data = [{
 		voteLink: 'http://jscode.me/topic/164/%E4%B8%80%E4%BD%9C%E5%93%81%E4%B8%80%E6%95%85%E4%BA%8B-%E4%BA%91%E4%B8%9C',
 		workLink: 'http://tukomi.me/cv/'
 	}
-	// , {
-	// 	imgUrl: 'imgs/7.png',
-	// 	type: 'g',
-	// 	coverColor: '#959a9e',
-	// 	coverWord: 'g',
-	// 	username: '若愚',
-	// 	userLink: 'http://hunger.coding.io',
-	// 	description: '京东页面',
-	// 	voteLink: 'http://www.baidu.com',
-	// 	workLink: 'http://jirengu.com'
-	// }, {
-	// 	imgUrl: 'imgs/8.png',
-	// 	type: 'h',
-	// 	coverColor: '#6d8746',
-	// 	coverWord: 'h',
-	// 	username: '若愚',
-	// 	userLink: 'http://hunger.coding.io',
-	// 	description: '京东页面',
-	// 	voteLink: 'http://www.baidu.com',
-	// 	workLink: 'http://jirengu.com'
-	// }, {
-	// 	imgUrl: 'imgs/9.png',
-	// 	type: 'i',
-	// 	coverColor: '#887942',
-	// 	coverWord: 'i',
-	// 	username: '若愚',
-	// 	userLink: 'http://hunger.coding.io',
-	// 	description: '京东页面',
-	// 	voteLink: 'http://www.baidu.com',
-	// 	workLink: 'http://jirengu.com'
-	// }, {
-	// 	imgUrl: 'imgs/10.png',
-	// 	type: 'j',
-	// 	coverColor: '#fdc76d',
-	// 	coverWord: 'j',
-	// 	username: '若愚',
-	// 	userLink: 'http://hunger.coding.io',
-	// 	description: '京东页面',
-	// 	voteLink: 'http://www.baidu.com',
-	// 	workLink: 'http://jirengu.com'
-	// }, {
-	// 	imgUrl: 'imgs/11.png',
-	// 	type: 'l',
-	// 	coverColor: '#65141b',
-	// 	coverWord: 'k',
-	// 	username: '若愚',
-	// 	userLink: 'http://hunger.coding.io',
-	// 	description: '京东页面',
-	// 	voteLink: 'http://www.baidu.com',
-	// 	workLink: 'http://jirengu.com'
-	// }, {
-	// 	imgUrl: 'imgs/12.png',
-	// 	type: 'k',
-	// 	coverColor: '#112c3f',
-	// 	coverWord: 'l',
-	// 	username: '若愚',
-	// 	userLink: 'http://hunger.coding.io',
-	// 	description: '京东页面',
-	// 	voteLink: 'http://www.baidu.com',
-	// 	workLink: 'http://jirengu.com'
-	// }, {
-	// 	imgUrl: 'imgs/13.png',
-	// 	type: 'm',
-	// 	coverColor: '#c95031',
-	// 	coverWord: 'm',
-	// 	username: '若愚',
-	// 	userLink: 'http://hunger.coding.io',
-	// 	description: '京东页面',
-	// 	voteLink: 'http://www.baidu.com',
-	// 	workLink: 'http://jirengu.com'
-	// }, {
-	// 	imgUrl: 'imgs/14.png',
-	// 	type: 'n',
-	// 	coverColor: '#8db1b1',
-	// 	coverWord: 'n',
-	// 	username: '若愚',
-	// 	userLink: 'http://hunger.coding.io',
-	// 	description: '京东页面',
-	// 	voteLink: 'http://www.baidu.com',
-	// 	workLink: 'http://jirengu.com'
-	// }, {
-	// 	imgUrl: 'imgs/15.png',
-	// 	type: 'o',
-	// 	coverColor: '#00b3ad',
-	// 	coverWord: 'o',
-	// 	username: '若愚',
-	// 	userLink: 'http://hunger.coding.io',
-	// 	description: '京东页面',
-	// 	voteLink: 'http://www.baidu.com',
-	// 	workLink: 'http://jirengu.com'
-	// }, {
-	// 	imgUrl: 'imgs/16.png',
-	// 	type: 'p',
-	// 	coverColor: '#c6d09e',
-	// 	coverWord: 'p',
-	// 	username: '若愚',
-	// 	userLink: 'http://hunger.coding.io',
-	// 	description: '京东页面',
-	// 	voteLink: 'http://www.baidu.com',
-	// 	workLink: 'http://jirengu.com'
-	// }, {
-	// 	imgUrl: 'imgs/17.png',
-	// 	type: 'q',
-	// 	coverColor: '#00b3ad',
-	// 	coverWord: 'q',
-	// 	username: '若愚',
-	// 	userLink: 'http://hunger.coding.io',
-	// 	description: '京东页面',
-	// 	voteLink: 'http://www.baidu.com',
-	// 	workLink: 'http://jirengu.com'
-	// }, {
-	// 	imgUrl: 'imgs/18.png',
-	// 	type: 'r',
-	// 	coverColor: '#c95031',
-	// 	coverWord: '若',
-	// 	username: '若愚',
-	// 	userLink: 'http://hunger.coding.io',
-	// 	description: '京东页面',
-	// 	voteLink: 'http://www.baidu.com',
-	// 	workLink: 'http://jirengu.com'
-	// }, {
-	// 	imgUrl: 'imgs/19.png',
-	// 	type: 's',
-	// 	coverColor: '#6b3922',
-	// 	coverWord: '若',
-	// 	username: '若愚',
-	// 	userLink: 'http://hunger.coding.io',
-	// 	description: '京东页面',
-	// 	voteLink: 'http://www.baidu.com',
-	// 	workLink: 'http://jirengu.com'
-	// }, {
-	// 	imgUrl: 'imgs/20.png',
-	// 	type: 't',
-	// 	coverColor: '#221e1f',
-	// 	coverWord: '若',
-	// 	username: '若愚',
-	// 	userLink: 'http://hunger.coding.io',
-	// 	description: '京东页面',
-	// 	voteLink: 'http://www.baidu.com',
-	// 	workLink: 'http://jirengu.com'
-	// }, {
+	, {
+		imgUrl: 'imgs/7.png',
+		type: 'g',
+		coverColor: '#959a9e',
+		coverWord: '凯',
+		username: '凯强',
+		userLink: '',
+		description: '蘑菇街',
+		voteLink: 'http://jscode.me/topic/170/%E4%B8%80%E4%BD%9C%E5%93%81%E4%B8%80%E6%95%85%E4%BA%8B-%E5%87%AF%E5%BC%BA',
+		workLink: 'http://mogujie.coding.io/mogujie/'
+	}, {
+		imgUrl: 'imgs/8.png',
+		type: 'h',
+		coverColor: '#6d8746',
+		coverWord: '禹',
+		username: '禹鲁',
+		userLink: 'http://www.cyl.moe',
+		description: '一个有意思的在线聊天室',
+		voteLink: 'http://jscode.me/topic/171/%E4%B8%80%E4%BD%9C%E5%93%81%E4%B8%80%E6%95%85%E4%BA%8B-cyl',
+		workLink: 'http://www.cyl.moe/chatroom'
+	}, {
+		imgUrl: 'imgs/9.png',
+		type: 'i',
+		coverColor: '#887942',
+		coverWord: '涛',
+		username: '曾涛',
+		userLink: 'http://www.cnblogs.com/jimmzy/p/5107645.html',
+		description: '个人博客',
+		voteLink: 'http://jscode.me/topic/167/%E4%B8%80%E4%BD%9C%E5%93%81%E4%B8%80%E6%95%85%E4%BA%8B-%E6%9B%BE%E6%B6%9B',
+		workLink: 'http://www.cnblogs.com/jimmzy/p/5107645.html'
+	}, 
+	{
+		imgUrl: 'imgs/10.png',
+		type: 'j',
+		coverColor: '#fdc76d',
+		coverWord: '树',
+		username: '树营',
+		userLink: 'http://csy347.coding.io/',
+		description: '个人博客',
+		voteLink: 'http://jscode.me/topic/166/%E4%B8%80%E4%BD%9C%E5%93%81%E4%B8%80%E6%95%85%E4%BA%8B-%E6%A0%91%E8%90%A5',
+		workLink: 'http://csy347.coding.io/'
+	}, {
+		imgUrl: 'imgs/11.png',
+		type: 'l',
+		coverColor: '#65141b',
+		coverWord: '聪',
+		username: '李聪',
+		userLink: 'http://leechpee.github.io',
+		description: '仿易迅网',
+		voteLink: 'http://jscode.me/topic/165/%E4%B8%80%E4%BD%9C%E5%93%81%E4%B8%80%E6%95%85%E4%BA%8B-%E6%9D%8E%E8%81%AA',
+		workLink: 'http://leechpee.github.io/staticyixun-ghpages/index.html'
+	}, {
+		imgUrl: 'imgs/12.png',
+		type: 'k',
+		coverColor: '#112c3f',
+		coverWord: '航',
+		username: '张航',
+		userLink: '',
+		description: '仿网易邮箱',
+		voteLink: 'http://jscode.me/topic/174/%E4%B8%80%E4%BD%9C%E5%93%81%E4%B8%80%E6%95%85%E4%BA%8B-%E5%BC%A0%E8%88%AA',
+		workLink: 'http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E5%BC%A0%E5%8F%AF%E8%88%AA/%E7%BD%91%E6%98%93%E9%82%AE%E7%AE%B1%E5%AE%9E%E4%BE%8B/index.html'
+	},
+	 {
+		imgUrl: 'imgs/13.png',
+		type: 'm',
+		coverColor: '#c95031',
+		coverWord: '冰',
+		username: '黄冰',
+		userLink: 'http://livhb.github.io/',
+		description: '个人博客',
+		voteLink: 'http://jscode.me/topic/168/%E4%B8%80%E4%BD%9C%E5%93%81%E4%B8%80%E6%95%85%E4%BA%8B-%E9%BB%84%E5%86%B0',
+		workLink: 'http://livhb.github.io/'
+	}, 
+	{
+		imgUrl: 'imgs/14.png',
+		type: 'n',
+		coverColor: '#8db1b1',
+		coverWord: 'n',
+		username: '敏',
+		userLink: 'http://chenhm.coding.io/',
+		description: '个人页面',
+		voteLink: 'http://jscode.me/topic/169/%E4%B8%80%E4%BD%9C%E5%93%81%E4%B8%80%E6%95%85%E4%BA%8B-%E6%85%A7%E6%95%8F',
+		workLink: 'http://chenhm.coding.io/'
+	}, {
+		imgUrl: 'imgs/15.png',
+		type: 'o',
+		coverColor: '#00b3ad',
+		coverWord: '宝',
+		username: '宝亿',
+		userLink: '',
+		description: '在线简历',
+		voteLink: 'http://jscode.me/topic/175/%E4%B8%80%E4%BD%9C%E5%93%81%E4%B8%80%E6%95%85%E4%BA%8B-%E5%AE%9D%E4%BA%BF',
+		workLink: 'http://2.hbyresume.applinzi.com/resume.html'
+	}, 
+	{
+		imgUrl: 'imgs/16.png',
+		type: 'p',
+		coverColor: '#c6d09e',
+		coverWord: '泽',
+		username: '泽民',
+		userLink: 'http://fengzeming.github.io/',
+		description: '个人博客',
+		voteLink: 'http://jscode.me/topic/173/%E4%B8%80%E4%BD%9C%E5%93%81%E4%B8%80%E6%95%85%E4%BA%8B-%E6%B3%BD%E6%B0%91',
+		workLink: 'http://fengzeming.github.io/'
+	}, 
+	{
+		imgUrl: 'imgs/17.png',
+		type: 'q',
+		coverColor: '#00b3ad',
+		coverWord: '恭',
+		username: '',
+		userLink: '',
+		description: '',
+		voteLink: '',
+		workLink: '#'
+	}, {
+		imgUrl: 'imgs/18.png',
+		type: 'r',
+		coverColor: '#c95031',
+		coverWord: '喜',
+		username: '',
+		userLink: '',
+		description: '',
+		voteLink: '',
+		workLink: '#'
+	}, {
+		imgUrl: 'imgs/19.png',
+		type: 's',
+		coverColor: '#6b3922',
+		coverWord: '发',
+		username: '',
+		userLink: '',
+		description: '',
+		voteLink: '',
+		workLink: 'http://jscode.me/category/30/%E6%95%99%E7%A8%8B%E7%BF%BB%E8%AF%91'
+	}, {
+		imgUrl: 'imgs/20.png',
+		type: 't',
+		coverColor: '#221e1f',
+		coverWord: '财',
+		username: '',
+		userLink: '',
+		description: 'JavaScript 秘密花园',
+		voteLink: 'http://jscode.me/category/32/javascript-%E7%A7%98%E5%AF%86%E8%8A%B1%E5%9B%AD',
+		workLink: 'http://jscode.me/category/32/javascript-%E7%A7%98%E5%AF%86%E8%8A%B1%E5%9B%AD'
+	}, 
+	//{
 	// 	imgUrl: 'imgs/21.png',
 	// 	type: 'u',
 	// 	coverColor: '#f38eae',
@@ -241,7 +248,8 @@ var data = [{
 	//            description: '京东页面',
 	//            voteLink: 'http://www.baidu.com',
 	//            workLink: 'http://jirengu.com'
-	//        },    {
+	//        },  
+	//          {
 	//            imgUrl: 'imgs/22.png',
 	//            type: 'y',
 	//            coverColor: '#b2c8d3',

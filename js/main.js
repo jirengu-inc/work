@@ -52,7 +52,7 @@ var Resize = {
 		}
 	},
 	dealRowCols: function() {
-		var h = $('.work').width() * 3 / 4,
+		var h = $('.work').width() * 2 / 4,
 			rows = parseInt($(window).height() / h),
 			mod = $(window).height() % h;
 		if (mod > (h / 2)) {
@@ -87,6 +87,7 @@ var Resize = {
 		});
 		$('.works-ct').on('mouseenter', '.work', function() {
 			if ($(this).hasClass('next') || $(this).hasClass('pre') || $(this).hasClass('empty')) return;
+			if ($(this).find('.user').text() === '') return;
 			var $cover = $(this).find('.cover'),
 				$hover = $(this).find('.hover');
 			$cover.addClass('slideOutUp');
