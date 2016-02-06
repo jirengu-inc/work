@@ -90,14 +90,14 @@ var Resize = {
 			if ($(this).find('.user').text() === '') return;
 			var $cover = $(this).find('.cover'),
 				$hover = $(this).find('.hover');
-			$cover.addClass('slideOutUp');
-			$hover.addClass('slideInUp');
+			$cover.addClass('bounceOutUp'); //bounceInUp bounceOutUp slideOutUp slideInUp
+			$hover.addClass('bounceInUp');
 		});
 		$('.works-ct').on('mouseleave', '.work', function() {
 			var $cover = $(this).find('.cover'),
 				$hover = $(this).find('.hover');
-			$cover.removeClass('slideOutUp');
-			$hover.removeClass('slideInUp');
+			$cover.removeClass('bounceOutUp');
+			$hover.removeClass('bounceInUp');
 		});
 		$(window).on('resize', function() {
 			if (me.clock) {
