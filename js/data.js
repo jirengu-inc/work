@@ -44,192 +44,193 @@ var data = [{
 		type: 'e',
 		coverColor: '#ff897b',
 		coverWord: 'e ',
-		username: '若愚',
-		userLink: 'http://hunger.coding.io',
-		description: '京东页面',
-		voteLink: 'http://www.baidu.com',
-		workLink: 'http://jirengu.com'
+		username: 'MioMi',
+		userLink: 'http://www.miomi.me/index.html',
+		description: '交互妹子的前端作品集合',
+		voteLink: 'http://jscode.me/topic/163/%E4%B8%80%E4%BD%9C%E5%93%81%E4%B8%80%E6%95%85%E4%BA%8B-miomi',
+		workLink: 'http://www.miomi.me/index.html'
 	}, {
 		imgUrl: 'imgs/6.png',
 		type: 'f',
 		coverColor: '#154142',
 		coverWord: 'f',
-		username: '若愚',
-		userLink: 'http://hunger.coding.io',
-		description: '京东页面',
-		voteLink: 'http://www.baidu.com',
-		workLink: 'http://jirengu.com'
-	}, {
-		imgUrl: 'imgs/7.png',
-		type: 'g',
-		coverColor: '#959a9e',
-		coverWord: 'g',
-		username: '若愚',
-		userLink: 'http://hunger.coding.io',
-		description: '京东页面',
-		voteLink: 'http://www.baidu.com',
-		workLink: 'http://jirengu.com'
-	}, {
-		imgUrl: 'imgs/8.png',
-		type: 'h',
-		coverColor: '#6d8746',
-		coverWord: 'h',
-		username: '若愚',
-		userLink: 'http://hunger.coding.io',
-		description: '京东页面',
-		voteLink: 'http://www.baidu.com',
-		workLink: 'http://jirengu.com'
-	}, {
-		imgUrl: 'imgs/9.png',
-		type: 'i',
-		coverColor: '#887942',
-		coverWord: 'i',
-		username: '若愚',
-		userLink: 'http://hunger.coding.io',
-		description: '京东页面',
-		voteLink: 'http://www.baidu.com',
-		workLink: 'http://jirengu.com'
-	}, {
-		imgUrl: 'imgs/10.png',
-		type: 'j',
-		coverColor: '#fdc76d',
-		coverWord: 'j',
-		username: '若愚',
-		userLink: 'http://hunger.coding.io',
-		description: '京东页面',
-		voteLink: 'http://www.baidu.com',
-		workLink: 'http://jirengu.com'
-	}, {
-		imgUrl: 'imgs/11.png',
-		type: 'l',
-		coverColor: '#65141b',
-		coverWord: 'k',
-		username: '若愚',
-		userLink: 'http://hunger.coding.io',
-		description: '京东页面',
-		voteLink: 'http://www.baidu.com',
-		workLink: 'http://jirengu.com'
-	}, {
-		imgUrl: 'imgs/12.png',
-		type: 'k',
-		coverColor: '#112c3f',
-		coverWord: 'l',
-		username: '若愚',
-		userLink: 'http://hunger.coding.io',
-		description: '京东页面',
-		voteLink: 'http://www.baidu.com',
-		workLink: 'http://jirengu.com'
-	}, {
-		imgUrl: 'imgs/13.png',
-		type: 'm',
-		coverColor: '#c95031',
-		coverWord: 'm',
-		username: '若愚',
-		userLink: 'http://hunger.coding.io',
-		description: '京东页面',
-		voteLink: 'http://www.baidu.com',
-		workLink: 'http://jirengu.com'
-	}, {
-		imgUrl: 'imgs/14.png',
-		type: 'n',
-		coverColor: '#8db1b1',
-		coverWord: 'n',
-		username: '若愚',
-		userLink: 'http://hunger.coding.io',
-		description: '京东页面',
-		voteLink: 'http://www.baidu.com',
-		workLink: 'http://jirengu.com'
-	}, {
-		imgUrl: 'imgs/15.png',
-		type: 'o',
-		coverColor: '#00b3ad',
-		coverWord: 'o',
-		username: '若愚',
-		userLink: 'http://hunger.coding.io',
-		description: '京东页面',
-		voteLink: 'http://www.baidu.com',
-		workLink: 'http://jirengu.com'
-	}, {
-		imgUrl: 'imgs/16.png',
-		type: 'p',
-		coverColor: '#c6d09e',
-		coverWord: 'p',
-		username: '若愚',
-		userLink: 'http://hunger.coding.io',
-		description: '京东页面',
-		voteLink: 'http://www.baidu.com',
-		workLink: 'http://jirengu.com'
-	}, {
-		imgUrl: 'imgs/17.png',
-		type: 'q',
-		coverColor: '#00b3ad',
-		coverWord: 'q',
-		username: '若愚',
-		userLink: 'http://hunger.coding.io',
-		description: '京东页面',
-		voteLink: 'http://www.baidu.com',
-		workLink: 'http://jirengu.com'
-	}, {
-		imgUrl: 'imgs/18.png',
-		type: 'r',
-		coverColor: '#c95031',
-		coverWord: '若',
-		username: '若愚',
-		userLink: 'http://hunger.coding.io',
-		description: '京东页面',
-		voteLink: 'http://www.baidu.com',
-		workLink: 'http://jirengu.com'
-	}, {
-		imgUrl: 'imgs/19.png',
-		type: 's',
-		coverColor: '#6b3922',
-		coverWord: '若',
-		username: '若愚',
-		userLink: 'http://hunger.coding.io',
-		description: '京东页面',
-		voteLink: 'http://www.baidu.com',
-		workLink: 'http://jirengu.com'
-	}, {
-		imgUrl: 'imgs/20.png',
-		type: 't',
-		coverColor: '#221e1f',
-		coverWord: '若',
-		username: '若愚',
-		userLink: 'http://hunger.coding.io',
-		description: '京东页面',
-		voteLink: 'http://www.baidu.com',
-		workLink: 'http://jirengu.com'
-	}, {
-		imgUrl: 'imgs/21.png',
-		type: 'u',
-		coverColor: '#f38eae',
-		coverWord: '若',
-		username: '若愚',
-		userLink: 'http://hunger.coding.io',
-		description: '京东页面',
-		voteLink: 'http://www.baidu.com',
-		workLink: 'http://jirengu.com'
-	}, {
-		imgUrl: 'imgs/22.png',
-		type: 'v',
-		coverColor: '#ab422f',
-		coverWord: '5',
-		username: '若愚',
-		userLink: 'http://hunger.coding.io',
-		description: '京东页面',
-		voteLink: 'http://www.baidu.com',
-		workLink: 'http://jirengu.com'
-	}, {
-		imgUrl: 'imgs/22.png',
-		type: 'w',
-		coverColor: '#221e1f',
-		coverWord: '若',
-		username: '若愚',
-		userLink: 'http://hunger.coding.io',
-		description: '京东页面',
-		voteLink: 'http://www.baidu.com',
-		workLink: 'http://jirengu.com'
-	},
+		username: '云东',
+		userLink: 'http://tukomi.me/',
+		description: '有意思的个人作品',
+		voteLink: 'http://jscode.me/topic/164/%E4%B8%80%E4%BD%9C%E5%93%81%E4%B8%80%E6%95%85%E4%BA%8B-%E4%BA%91%E4%B8%9C',
+		workLink: 'http://tukomi.me/cv/'
+	}
+	// , {
+	// 	imgUrl: 'imgs/7.png',
+	// 	type: 'g',
+	// 	coverColor: '#959a9e',
+	// 	coverWord: 'g',
+	// 	username: '若愚',
+	// 	userLink: 'http://hunger.coding.io',
+	// 	description: '京东页面',
+	// 	voteLink: 'http://www.baidu.com',
+	// 	workLink: 'http://jirengu.com'
+	// }, {
+	// 	imgUrl: 'imgs/8.png',
+	// 	type: 'h',
+	// 	coverColor: '#6d8746',
+	// 	coverWord: 'h',
+	// 	username: '若愚',
+	// 	userLink: 'http://hunger.coding.io',
+	// 	description: '京东页面',
+	// 	voteLink: 'http://www.baidu.com',
+	// 	workLink: 'http://jirengu.com'
+	// }, {
+	// 	imgUrl: 'imgs/9.png',
+	// 	type: 'i',
+	// 	coverColor: '#887942',
+	// 	coverWord: 'i',
+	// 	username: '若愚',
+	// 	userLink: 'http://hunger.coding.io',
+	// 	description: '京东页面',
+	// 	voteLink: 'http://www.baidu.com',
+	// 	workLink: 'http://jirengu.com'
+	// }, {
+	// 	imgUrl: 'imgs/10.png',
+	// 	type: 'j',
+	// 	coverColor: '#fdc76d',
+	// 	coverWord: 'j',
+	// 	username: '若愚',
+	// 	userLink: 'http://hunger.coding.io',
+	// 	description: '京东页面',
+	// 	voteLink: 'http://www.baidu.com',
+	// 	workLink: 'http://jirengu.com'
+	// }, {
+	// 	imgUrl: 'imgs/11.png',
+	// 	type: 'l',
+	// 	coverColor: '#65141b',
+	// 	coverWord: 'k',
+	// 	username: '若愚',
+	// 	userLink: 'http://hunger.coding.io',
+	// 	description: '京东页面',
+	// 	voteLink: 'http://www.baidu.com',
+	// 	workLink: 'http://jirengu.com'
+	// }, {
+	// 	imgUrl: 'imgs/12.png',
+	// 	type: 'k',
+	// 	coverColor: '#112c3f',
+	// 	coverWord: 'l',
+	// 	username: '若愚',
+	// 	userLink: 'http://hunger.coding.io',
+	// 	description: '京东页面',
+	// 	voteLink: 'http://www.baidu.com',
+	// 	workLink: 'http://jirengu.com'
+	// }, {
+	// 	imgUrl: 'imgs/13.png',
+	// 	type: 'm',
+	// 	coverColor: '#c95031',
+	// 	coverWord: 'm',
+	// 	username: '若愚',
+	// 	userLink: 'http://hunger.coding.io',
+	// 	description: '京东页面',
+	// 	voteLink: 'http://www.baidu.com',
+	// 	workLink: 'http://jirengu.com'
+	// }, {
+	// 	imgUrl: 'imgs/14.png',
+	// 	type: 'n',
+	// 	coverColor: '#8db1b1',
+	// 	coverWord: 'n',
+	// 	username: '若愚',
+	// 	userLink: 'http://hunger.coding.io',
+	// 	description: '京东页面',
+	// 	voteLink: 'http://www.baidu.com',
+	// 	workLink: 'http://jirengu.com'
+	// }, {
+	// 	imgUrl: 'imgs/15.png',
+	// 	type: 'o',
+	// 	coverColor: '#00b3ad',
+	// 	coverWord: 'o',
+	// 	username: '若愚',
+	// 	userLink: 'http://hunger.coding.io',
+	// 	description: '京东页面',
+	// 	voteLink: 'http://www.baidu.com',
+	// 	workLink: 'http://jirengu.com'
+	// }, {
+	// 	imgUrl: 'imgs/16.png',
+	// 	type: 'p',
+	// 	coverColor: '#c6d09e',
+	// 	coverWord: 'p',
+	// 	username: '若愚',
+	// 	userLink: 'http://hunger.coding.io',
+	// 	description: '京东页面',
+	// 	voteLink: 'http://www.baidu.com',
+	// 	workLink: 'http://jirengu.com'
+	// }, {
+	// 	imgUrl: 'imgs/17.png',
+	// 	type: 'q',
+	// 	coverColor: '#00b3ad',
+	// 	coverWord: 'q',
+	// 	username: '若愚',
+	// 	userLink: 'http://hunger.coding.io',
+	// 	description: '京东页面',
+	// 	voteLink: 'http://www.baidu.com',
+	// 	workLink: 'http://jirengu.com'
+	// }, {
+	// 	imgUrl: 'imgs/18.png',
+	// 	type: 'r',
+	// 	coverColor: '#c95031',
+	// 	coverWord: '若',
+	// 	username: '若愚',
+	// 	userLink: 'http://hunger.coding.io',
+	// 	description: '京东页面',
+	// 	voteLink: 'http://www.baidu.com',
+	// 	workLink: 'http://jirengu.com'
+	// }, {
+	// 	imgUrl: 'imgs/19.png',
+	// 	type: 's',
+	// 	coverColor: '#6b3922',
+	// 	coverWord: '若',
+	// 	username: '若愚',
+	// 	userLink: 'http://hunger.coding.io',
+	// 	description: '京东页面',
+	// 	voteLink: 'http://www.baidu.com',
+	// 	workLink: 'http://jirengu.com'
+	// }, {
+	// 	imgUrl: 'imgs/20.png',
+	// 	type: 't',
+	// 	coverColor: '#221e1f',
+	// 	coverWord: '若',
+	// 	username: '若愚',
+	// 	userLink: 'http://hunger.coding.io',
+	// 	description: '京东页面',
+	// 	voteLink: 'http://www.baidu.com',
+	// 	workLink: 'http://jirengu.com'
+	// }, {
+	// 	imgUrl: 'imgs/21.png',
+	// 	type: 'u',
+	// 	coverColor: '#f38eae',
+	// 	coverWord: '若',
+	// 	username: '若愚',
+	// 	userLink: 'http://hunger.coding.io',
+	// 	description: '京东页面',
+	// 	voteLink: 'http://www.baidu.com',
+	// 	workLink: 'http://jirengu.com'
+	// }, {
+	// 	imgUrl: 'imgs/22.png',
+	// 	type: 'v',
+	// 	coverColor: '#ab422f',
+	// 	coverWord: '5',
+	// 	username: '若愚',
+	// 	userLink: 'http://hunger.coding.io',
+	// 	description: '京东页面',
+	// 	voteLink: 'http://www.baidu.com',
+	// 	workLink: 'http://jirengu.com'
+	// }, {
+	// 	imgUrl: 'imgs/22.png',
+	// 	type: 'w',
+	// 	coverColor: '#221e1f',
+	// 	coverWord: '若',
+	// 	username: '若愚',
+	// 	userLink: 'http://hunger.coding.io',
+	// 	description: '京东页面',
+	// 	voteLink: 'http://www.baidu.com',
+	// 	workLink: 'http://jirengu.com'
+	// },
 	// {
 	//            imgUrl: 'imgs/22.png',
 	//            type: 'x',
