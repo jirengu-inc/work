@@ -315,6 +315,7 @@ html,body{
 .work{
     position: relative;
     overflow: hidden;
+    background-color: #fff;
 }
 .work img{
     width: 100%;
