@@ -52,7 +52,7 @@ var Resize = {
 		}
 	},
 	dealRowCols: function() {
-		var h = $('.work').width() * 3 / 4,
+		var h = $('.work').width() * 7 / 8,
 			rows = parseInt($(window).height() / h),
 			mod = $(window).height() % h;
 		if (mod > (h / 2)) {
