@@ -255,6 +255,9 @@ a{
     .col-md-1 {
         width: 8.33333333%;
     }
+    .col-md-x {
+        width: 14.28571428%;
+    }
     .word{
         font-size: 40px;
         border-bottom-width: 12px;

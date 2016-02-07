@@ -1,6 +1,5 @@
 //http://7xnk1s.com2.z0.glb.qiniucdn.com/work-1.png
-var data = [
-{
+var arr = [{
 		imgUrl: 'imgs/1.png',
 		type: 'a',
 		coverColor: '#b2c8d3',
@@ -60,8 +59,7 @@ var data = [
 		description: '有意思的个人作品',
 		voteLink: 'http://jscode.me/topic/164/%E4%B8%80%E4%BD%9C%E5%93%81%E4%B8%80%E6%95%85%E4%BA%8B-%E4%BA%91%E4%B8%9C',
 		workLink: 'http://tukomi.me/cv/'
-	}
-	, {
+	}, {
 		imgUrl: 'imgs/7.png',
 		type: 'g',
 		coverColor: '#959a9e',
@@ -91,8 +89,7 @@ var data = [
 		description: '个人博客',
 		voteLink: 'http://jscode.me/topic/167/%E4%B8%80%E4%BD%9C%E5%93%81%E4%B8%80%E6%95%85%E4%BA%8B-%E6%9B%BE%E6%B6%9B',
 		workLink: 'http://www.cnblogs.com/jimmzy/p/5107645.html'
-	}, 
-	{
+	}, {
 		imgUrl: 'imgs/10.png',
 		type: 'j',
 		coverColor: '#fdc76d',
@@ -122,8 +119,7 @@ var data = [
 		description: '仿网易邮箱',
 		voteLink: 'http://jscode.me/topic/174/%E4%B8%80%E4%BD%9C%E5%93%81%E4%B8%80%E6%95%85%E4%BA%8B-%E5%BC%A0%E8%88%AA',
 		workLink: 'http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E5%BC%A0%E5%8F%AF%E8%88%AA/%E7%BD%91%E6%98%93%E9%82%AE%E7%AE%B1%E5%AE%9E%E4%BE%8B/index.html'
-	},
-	 {
+	}, {
 		imgUrl: 'imgs/13.png',
 		type: 'm',
 		coverColor: '#c95031',
@@ -133,8 +129,7 @@ var data = [
 		description: '个人博客',
 		voteLink: 'http://jscode.me/topic/168/%E4%B8%80%E4%BD%9C%E5%93%81%E4%B8%80%E6%95%85%E4%BA%8B-%E9%BB%84%E5%86%B0',
 		workLink: 'http://livhb.github.io/'
-	}, 
-	{
+	}, {
 		imgUrl: 'imgs/14.png',
 		type: 'n',
 		coverColor: '#8db1b1',
@@ -154,8 +149,7 @@ var data = [
 		description: '在线简历',
 		voteLink: 'http://jscode.me/topic/175/%E4%B8%80%E4%BD%9C%E5%93%81%E4%B8%80%E6%95%85%E4%BA%8B-%E5%AE%9D%E4%BA%BF',
 		workLink: 'http://2.hbyresume.applinzi.com/resume.html'
-	}, 
-	{
+	}, {
 		imgUrl: 'imgs/16.png',
 		type: 'p',
 		coverColor: '#c6d09e',
@@ -165,48 +159,103 @@ var data = [
 		description: '个人博客',
 		voteLink: 'http://jscode.me/topic/173/%E4%B8%80%E4%BD%9C%E5%93%81%E4%B8%80%E6%95%85%E4%BA%8B-%E6%B3%BD%E6%B0%91',
 		workLink: 'http://fengzeming.github.io/'
-	}, 
+	},
+
+
 	{
-		imgUrl: 'imgs/17.png',
-		type: 'q',
-		coverColor: '#00b3ad',
-		coverWord: '恭',
-		username: '',
-		userLink: '',
-		description: '',
-		voteLink: '',
-		workLink: '#'
+		imgUrl: 'imgs/21.png',
+		type: 'u',
+		coverColor: '#f38eae',
+		coverWord: '禹',
+		username: '禹鲁',
+		userLink: 'http://www.cyl.moe',
+		description: 'node+mongodb做的个人博客',
+		voteLink: 'http://jscode.me/topic/179/%E4%B8%80%E4%BD%9C%E5%93%81%E4%B8%80%E6%95%85%E4%BA%8B-cyl',
+		workLink: 'http://www.cyl.moe'
 	}, {
-		imgUrl: 'imgs/18.png',
-		type: 'r',
-		coverColor: '#c95031',
-		coverWord: '喜',
-		username: '',
-		userLink: '',
-		description: '',
-		voteLink: '',
-		workLink: '#'
+		imgUrl: 'imgs/22.png',
+		type: 'v',
+		coverColor: '#ab422f',
+		coverWord: '聪',
+		username: '李聪',
+		userLink: 'http://leechpee.github.io/',
+		description: ' hexo 搭建的个人博客',
+		voteLink: 'http://jscode.me/topic/176/%E4%B8%80%E4%BD%9C%E5%93%81%E4%B8%80%E6%95%85%E4%BA%8B-%E6%9D%8E%E8%81%AA%E5%8D%9A%E5%AE%A2',
+		workLink: 'http://leechpee.github.io/'
 	}, {
-		imgUrl: 'imgs/19.png',
-		type: 's',
-		coverColor: '#6b3922',
-		coverWord: '发',
-		username: '',
-		userLink: '',
-		description: '',
-		voteLink: '',
-		workLink: 'http://jscode.me/category/30/%E6%95%99%E7%A8%8B%E7%BF%BB%E8%AF%91'
-	}, {
-		imgUrl: 'imgs/20.png',
-		type: 't',
+		imgUrl: 'imgs/22.png',
+		type: 'w',
 		coverColor: '#221e1f',
-		coverWord: '财',
-		username: '',
+		coverWord: '凯',
+		username: '马凯',
+		userLink: 'http://weather.coding.io/',
+		description: ' hexo 搭建的个人博客',
+		voteLink: 'http://jscode.me/topic/178/%E4%B8%80%E4%BD%9C%E5%93%81%E4%B8%80%E6%95%85%E4%BA%8B-%E9%A9%AC%E5%87%AF%E5%8D%9A%E5%AE%A2',
+		workLink: 'http://weather.coding.io/'
+	}, {
+		imgUrl: 'imgs/22.png',
+		type: 'x',
+		coverColor: '#ecb1c5',
+		coverWord: '东',
+		username: '云东',
+		userLink: 'http://tukomi.me/about',
+		description: '个人博客',
+		voteLink: 'http://jscode.me/topic/181/%E4%B8%80%E4%BD%9C%E5%93%81%E4%B8%80%E6%95%85%E4%BA%8B-%E4%BA%91%E4%B8%9C%E5%8D%9A%E5%AE%A2',
+		workLink: 'http://tukomi.me/'
+	}, {
+		imgUrl: 'imgs/22.png',
+		type: 'y',
+		coverColor: '#b2c8d3',
+		coverWord: '国',
+		username: '朱志国',
 		userLink: '',
-		description: 'JavaScript 秘密花园',
-		voteLink: 'http://jscode.me/category/32/javascript-%E7%A7%98%E5%AF%86%E8%8A%B1%E5%9B%AD',
-		workLink: 'http://jscode.me/category/32/javascript-%E7%A7%98%E5%AF%86%E8%8A%B1%E5%9B%AD'
-	}, 
+		description: '烧烤屋首页',
+		voteLink: 'http://jscode.me/topic/180/%E4%B8%80%E4%BD%9C%E5%93%81%E4%B8%80%E6%95%85%E4%BA%8B-%E6%9C%B1%E5%BF%97%E5%9B%BD',
+		workLink: 'http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E6%9C%B1%E5%BF%97%E5%9B%BD/%E6%9C%A8%E5%B1%8B%E7%83%A7%E7%83%A4%E9%A6%96%E9%A1%B5%E5%B7%B2%E5%AE%8C%E6%88%90/index.html'
+	},
+
+
+	// {
+	// 	imgUrl: 'imgs/17.png',
+	// 	type: 'q',
+	// 	coverColor: '#00b3ad',
+	// 	coverWord: '恭',
+	// 	username: '',
+	// 	userLink: '',
+	// 	description: '',
+	// 	voteLink: '',
+	// 	workLink: '#'
+	// }, {
+	// 	imgUrl: 'imgs/18.png',
+	// 	type: 'r',
+	// 	coverColor: '#c95031',
+	// 	coverWord: '喜',
+	// 	username: '',
+	// 	userLink: '',
+	// 	description: '',
+	// 	voteLink: '',
+	// 	workLink: '#'
+	// }, {
+	// 	imgUrl: 'imgs/19.png',
+	// 	type: 's',
+	// 	coverColor: '#6b3922',
+	// 	coverWord: '发',
+	// 	username: '',
+	// 	userLink: '',
+	// 	description: '',
+	// 	voteLink: '',
+	// 	workLink: 'http://jscode.me/category/30/%E6%95%99%E7%A8%8B%E7%BF%BB%E8%AF%91'
+	// }, {
+	// 	imgUrl: 'imgs/20.png',
+	// 	type: 't',
+	// 	coverColor: '#221e1f',
+	// 	coverWord: '财',
+	// 	username: '',
+	// 	userLink: '',
+	// 	description: 'JavaScript 秘密花园',
+	// 	voteLink: 'http://jscode.me/category/32/javascript-%E7%A7%98%E5%AF%86%E8%8A%B1%E5%9B%AD',
+	// 	workLink: 'http://jscode.me/category/32/javascript-%E7%A7%98%E5%AF%86%E8%8A%B1%E5%9B%AD'
+	// },
 	//{
 	// 	imgUrl: 'imgs/21.png',
 	// 	type: 'u',
@@ -259,7 +308,8 @@ var data = [
 	//            description: '京东页面',
 	//            voteLink: 'http://www.baidu.com',
 	//            workLink: 'http://jirengu.com'
-	//        },    {
+	//        },   
+	//         {
 	//            imgUrl: 'imgs/22.png',
 	//            type: 'z',
 	//            coverColor: '#8495af',
@@ -361,3 +411,59 @@ var data = [
 	//            workLink: 'http://jirengu.com'
 	//        }
 ];
+
+var arr2 = [
+	{
+		imgUrl: 'imgs/17.png',
+		type: 'q',
+		coverColor: '#00b3ad',
+		coverWord: '恭',
+		username: '',
+		userLink: '',
+		description: '',
+		voteLink: '',
+		workLink: '#'
+	}, {
+		imgUrl: 'imgs/18.png',
+		type: 'r',
+		coverColor: '#c95031',
+		coverWord: '喜',
+		username: '',
+		userLink: '',
+		description: '',
+		voteLink: '',
+		workLink: '#'
+	}, {
+		imgUrl: 'imgs/19.png',
+		type: 's',
+		coverColor: '#6b3922',
+		coverWord: '发',
+		username: '',
+		userLink: '',
+		description: '',
+		voteLink: '',
+		workLink: 'http://jscode.me/category/30/%E6%95%99%E7%A8%8B%E7%BF%BB%E8%AF%91'
+	}, {
+		imgUrl: 'imgs/20.png',
+		type: 't',
+		coverColor: '#221e1f',
+		coverWord: '财',
+		username: '',
+		userLink: '',
+		description: 'JavaScript 秘密花园',
+		voteLink: 'http://jscode.me/category/32/javascript-%E7%A7%98%E5%AF%86%E8%8A%B1%E5%9B%AD',
+		workLink: 'http://jscode.me/category/32/javascript-%E7%A7%98%E5%AF%86%E8%8A%B1%E5%9B%AD'
+	}];
+
+function randArr(arr){
+	var newarr = [];
+	while(arr.length>0){
+		newarr.push(arr.splice(Math.floor(Math.random()*arr.length), 1)[0]);
+	}
+	return newarr;
+}
+
+
+var data = randArr(arr).concat(arr2);
+
+
