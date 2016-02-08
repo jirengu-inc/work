@@ -16,24 +16,24 @@
         </div>
     </div>
     <script id="work-template" type="x-tmpl-mustache">
-    <li class="work col-vty-6 col-ty-4 col-sm-3 col-md-x">
+    <li class="work work-normal col-vty-6 col-ty-4 col-sm-3 col-md-x">
         <div class="img-ct">
             <img src="{{imgUrl}}" alt="{{username}}的作品"/>
         </div>
-        <a href="{{workLink}}">
+        <a target="_blank" href="{{workLink}}">
         <div class="cover" style="background-color: {{coverColor}}">
             <span class="word">{{coverWord}}</span>
         </div>
         </a>
         <div class="hover">
-            <a href="{{userLink}}" class="user">{{username}}</a>
+            <a target="_blank" href="{{userLink}}" class="user">{{username}}</a>
             <div class="vote">
                 <span class="view-info">已阅: <i class="view-num">{{viewcount}}</i></span>
                 <span class="vote-info">投票: <i class="vote-num">{{votecount}}</i></span>
             </div>
             <p class="desp" title="{{description}}">{{description}}</p>
             <div class="btn-wrap">
-                <a href="{{voteLink}}" target="_blank" class="btn vote-btn" style="background-color: {{coverColor}}">评论投票</a>
+                <a href="{{voteLink}}" class="btn vote-btn" style="background-color: {{coverColor}}">评论投票</a>
                 <a href="{{workLink}}" target="_blank" class="btn see-btm" style="background-color: {{coverColor}}">看看作品</a>
             </div>
         </div>

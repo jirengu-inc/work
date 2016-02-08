@@ -70,14 +70,22 @@ var Resize = {
 		}, 10);
 	},
 	bind: function() {
-		var me = this;
-		$('.works-ct').on('click', '.next', function() {
+		var me = this,
+			evtType;
+		if(this.isPhone()){
+			evtType = 'touchstart';
+			$('.work-normal .cover').addClass('bounceOutUp');
+			$('.work-normal .hover').addClass('bounceInUp');
+		}else{
+			evtType = 'click';
+		}
+		$('.works-ct').on(evtType, '.next', function() {
 			me.pageIdx++;
 			$('body').animate({
 				scrollTop: $('.work').eq(me.pageIdx * me.rowNum * me.colNum + 1).offset().top
 			});
 		});
-		$('.works-ct').on('click', '.pre', function() {
+		$('.works-ct').on(evtType, '.pre', function() {
 			me.pageIdx--;
 			if (me.pageIdx > -1) {
 				$('body').animate({
@@ -86,8 +94,7 @@ var Resize = {
 			}
 		});
 		
-		$('.works-ct').on('mouseenter', '.work', function() {
-			if ($(this).hasClass('next') || $(this).hasClass('pre') || $(this).hasClass('empty')) return;
+		$('.works-ct').on('mouseenter', '.work-normal', function() {
 			if ($(this).find('.user').text() === '') return;
 			var $cover = $(this).find('.cover'),
 				$hover = $(this).find('.hover');
@@ -162,5 +169,8 @@ var Resize = {
 		this.insertEmpty();
 		this.setImg();
 		this.setHeight();
+	},
+	isPhone: function(){
+		return !!navigator.userAgent.match(/iphone|android|ipad/i) || $(window).width()<768;
 	}
 };
