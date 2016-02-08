@@ -76,6 +76,8 @@ var Resize = {
 			evtType = 'touchstart';
 			$('.work-normal .cover').addClass('bounceOutUp');
 			$('.work-normal .hover').addClass('bounceInUp');
+			$('body').css('overflow', 'auto');
+			$('.pre,.next,.empty').remove();  //手机上不用这种效果了
 		}else{
 			evtType = 'click';
 		}
