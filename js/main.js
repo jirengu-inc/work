@@ -109,7 +109,8 @@ var Resize = {
 			$cover.removeClass('bounceOutUp');
 			$hover.removeClass('bounceInUp');
 		});
-		$(window).on('resize', function() {
+
+		!this.isPhone() && $(window).on('resize', function() {
 			if (me.clock) {
 				clearTimeout(me.clock);
 				me.clock = setTimeout(function() {
