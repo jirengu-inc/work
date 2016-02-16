@@ -90,16 +90,6 @@ var arr = [{
 		voteLink: 'http://jscode.me/topic/167/%E4%B8%80%E4%BD%9C%E5%93%81%E4%B8%80%E6%95%85%E4%BA%8B-%E6%9B%BE%E6%B6%9B',
 		workLink: 'http://www.cnblogs.com/jimmzy/p/5107645.html'
 	}, {
-		imgUrl: 'imgs/10.png',
-		type: 'j',
-		coverColor: '#fdc76d',
-		coverWord: '树',
-		username: '树营',
-		userLink: 'http://csy347.coding.io/',
-		description: '个人博客',
-		voteLink: 'http://jscode.me/topic/166/%E4%B8%80%E4%BD%9C%E5%93%81%E4%B8%80%E6%95%85%E4%BA%8B-%E6%A0%91%E8%90%A5',
-		workLink: 'http://csy347.coding.io/'
-	}, {
 		imgUrl: 'imgs/11.png',
 		type: 'l',
 		coverColor: '#65141b',
@@ -110,6 +100,16 @@ var arr = [{
 		voteLink: 'http://jscode.me/topic/165/%E4%B8%80%E4%BD%9C%E5%93%81%E4%B8%80%E6%95%85%E4%BA%8B-%E6%9D%8E%E8%81%AA',
 		workLink: 'http://leechpee.github.io/staticyixun-ghpages/index.html'
 	}, {
+		imgUrl: 'imgs/10.png',
+		type: 'j',
+		coverColor: '#fdc76d',
+		coverWord: '树',
+		username: '树营',
+		userLink: 'http://csy347.coding.io/',
+		description: '个人博客',
+		voteLink: 'http://jscode.me/topic/166/%E4%B8%80%E4%BD%9C%E5%93%81%E4%B8%80%E6%95%85%E4%BA%8B-%E6%A0%91%E8%90%A5',
+		workLink: 'http://csy347.coding.io/'
+	}, {
 		imgUrl: 'imgs/12.png',
 		type: 'k',
 		coverColor: '#112c3f',
@@ -119,6 +119,26 @@ var arr = [{
 		description: '仿网易邮箱',
 		voteLink: 'http://jscode.me/topic/174/%E4%B8%80%E4%BD%9C%E5%93%81%E4%B8%80%E6%95%85%E4%BA%8B-%E5%BC%A0%E8%88%AA',
 		workLink: 'http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E5%BC%A0%E5%8F%AF%E8%88%AA/%E7%BD%91%E6%98%93%E9%82%AE%E7%AE%B1%E5%AE%9E%E4%BE%8B/index.html'
+	}, {
+		imgUrl: 'imgs/22.png',
+		type: 'y',
+		coverColor: '#b2c8d3',
+		coverWord: '国',
+		username: '朱志国',
+		userLink: '',
+		description: '烧烤屋首页',
+		voteLink: 'http://jscode.me/topic/180/%E4%B8%80%E4%BD%9C%E5%93%81%E4%B8%80%E6%95%85%E4%BA%8B-%E6%9C%B1%E5%BF%97%E5%9B%BD',
+		workLink: 'http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E6%9C%B1%E5%BF%97%E5%9B%BD/%E6%9C%A8%E5%B1%8B%E7%83%A7%E7%83%A4%E9%A6%96%E9%A1%B5%E5%B7%B2%E5%AE%8C%E6%88%90/index.html'
+	}, {
+		imgUrl: 'imgs/22.png',
+		type: 'y',
+		coverColor: '#b2c8d3',
+		coverWord: '泽',
+		username: '泽民',
+		userLink: 'http://fengzeming.github.io/',
+		description: '5Sing 首页',
+		voteLink: 'http://jscode.me/topic/186/%E4%B8%80%E4%BD%9C%E5%93%81%E4%B8%80%E6%95%85%E4%BA%8B-%E6%B3%BD%E6%B0%915sing',
+		workLink: 'http://book.jirengu.com/FengZeming/wfxs-code/%E4%BD%9C%E5%93%81/5sing/index.html'
 	}, {
 		imgUrl: 'imgs/13.png',
 		type: 'm',
@@ -159,10 +179,27 @@ var arr = [{
 		description: '个人博客',
 		voteLink: 'http://jscode.me/topic/173/%E4%B8%80%E4%BD%9C%E5%93%81%E4%B8%80%E6%95%85%E4%BA%8B-%E6%B3%BD%E6%B0%91',
 		workLink: 'http://fengzeming.github.io/'
-	},
-
-
-	{
+	}, {
+		imgUrl: 'imgs/17.png',
+		type: 'q',
+		coverColor: '#00b3ad',
+		coverWord: '栋',
+		username: '李栋',
+		userLink: '',
+		description: '个人博客',
+		voteLink: 'http://jscode.me/topic/187/%E4%B8%80%E4%BD%9C%E5%93%81%E4%B8%80%E6%95%85%E4%BA%8B-%E6%9D%8E%E6%A0%8B',
+		workLink: 'http://xingkong.coding.io/'
+	}, {
+		imgUrl: 'imgs/18.png',
+		type: 'r',
+		coverColor: '#c95031',
+		coverWord: '松',
+		username: '晓松',
+		userLink: '',
+		description: '晓松的个人博客',
+		voteLink: 'http://jscode.me/topic/188/%E4%B8%80%E4%BD%9C%E5%93%81%E4%B8%80%E6%95%85%E4%BA%8B-%E6%99%93%E6%9D%BE',
+		workLink: 'https://sandm0.github.io/'
+	}, {
 		imgUrl: 'imgs/21.png',
 		type: 'u',
 		coverColor: '#f38eae',
@@ -202,16 +239,6 @@ var arr = [{
 		description: '个人博客',
 		voteLink: 'http://jscode.me/topic/181/%E4%B8%80%E4%BD%9C%E5%93%81%E4%B8%80%E6%95%85%E4%BA%8B-%E4%BA%91%E4%B8%9C%E5%8D%9A%E5%AE%A2',
 		workLink: 'http://tukomi.me/'
-	}, {
-		imgUrl: 'imgs/22.png',
-		type: 'y',
-		coverColor: '#b2c8d3',
-		coverWord: '国',
-		username: '朱志国',
-		userLink: '',
-		description: '烧烤屋首页',
-		voteLink: 'http://jscode.me/topic/180/%E4%B8%80%E4%BD%9C%E5%93%81%E4%B8%80%E6%95%85%E4%BA%8B-%E6%9C%B1%E5%BF%97%E5%9B%BD',
-		workLink: 'http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E6%9C%B1%E5%BF%97%E5%9B%BD/%E6%9C%A8%E5%B1%8B%E7%83%A7%E7%83%A4%E9%A6%96%E9%A1%B5%E5%B7%B2%E5%AE%8C%E6%88%90/index.html'
 	},
 
 
@@ -412,58 +439,55 @@ var arr = [{
 	//        }
 ];
 
-var arr2 = [
-	{
-		imgUrl: 'imgs/17.png',
-		type: 'q',
-		coverColor: '#00b3ad',
-		coverWord: '恭',
-		username: '',
-		userLink: '',
-		description: '',
-		voteLink: '',
-		workLink: '#'
-	}, {
-		imgUrl: 'imgs/18.png',
-		type: 'r',
-		coverColor: '#c95031',
-		coverWord: '喜',
-		username: '',
-		userLink: '',
-		description: '',
-		voteLink: '',
-		workLink: '#'
-	}, {
-		imgUrl: 'imgs/19.png',
-		type: 's',
-		coverColor: '#6b3922',
-		coverWord: '发',
-		username: '',
-		userLink: '',
-		description: '',
-		voteLink: '',
-		workLink: 'http://jscode.me/category/30/%E6%95%99%E7%A8%8B%E7%BF%BB%E8%AF%91'
-	}, {
-		imgUrl: 'imgs/20.png',
-		type: 't',
-		coverColor: '#221e1f',
-		coverWord: '财',
-		username: '',
-		userLink: '',
-		description: 'JavaScript 秘密花园',
-		voteLink: 'http://jscode.me/category/32/javascript-%E7%A7%98%E5%AF%86%E8%8A%B1%E5%9B%AD',
-		workLink: 'http://jscode.me/category/32/javascript-%E7%A7%98%E5%AF%86%E8%8A%B1%E5%9B%AD'
-	}];
+var arr2 = [{
+	imgUrl: 'imgs/17.png',
+	type: 'q',
+	coverColor: '#00b3ad',
+	coverWord: '恭',
+	username: '',
+	userLink: '',
+	description: '',
+	voteLink: '',
+	workLink: '#'
+}, {
+	imgUrl: 'imgs/18.png',
+	type: 'r',
+	coverColor: '#c95031',
+	coverWord: '喜',
+	username: '',
+	userLink: '',
+	description: '',
+	voteLink: '',
+	workLink: '#'
+}, {
+	imgUrl: 'imgs/19.png',
+	type: 's',
+	coverColor: '#6b3922',
+	coverWord: '发',
+	username: '',
+	userLink: '',
+	description: '',
+	voteLink: '',
+	workLink: 'http://jscode.me/category/30/%E6%95%99%E7%A8%8B%E7%BF%BB%E8%AF%91'
+}, {
+	imgUrl: 'imgs/20.png',
+	type: 't',
+	coverColor: '#221e1f',
+	coverWord: '财',
+	username: '',
+	userLink: '',
+	description: 'JavaScript 秘密花园',
+	voteLink: 'http://jscode.me/category/32/javascript-%E7%A7%98%E5%AF%86%E8%8A%B1%E5%9B%AD',
+	workLink: 'http://jscode.me/category/32/javascript-%E7%A7%98%E5%AF%86%E8%8A%B1%E5%9B%AD'
+}];
 
-function randArr(arr){
+function randArr(arr) {
 	var newarr = [];
-	while(arr.length>0){
-		newarr.push(arr.splice(Math.floor(Math.random()*arr.length), 1)[0]);
+	while (arr.length > 0) {
+		newarr.push(arr.splice(Math.floor(Math.random() * arr.length), 1)[0]);
 	}
 	return newarr;
 }
 
 
-var data = randArr(arr).concat(arr2);
-
-
+var data = arr;
