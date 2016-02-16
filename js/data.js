@@ -240,6 +240,18 @@ var arr = [{
 		voteLink: 'http://jscode.me/topic/181/%E4%B8%80%E4%BD%9C%E5%93%81%E4%B8%80%E6%95%85%E4%BA%8B-%E4%BA%91%E4%B8%9C%E5%8D%9A%E5%AE%A2',
 		workLink: 'http://tukomi.me/'
 	},
+	{
+		imgUrl: 'imgs/22.png',
+		type: 'x',
+		coverColor: '#ecb1c5',
+		coverWord: '泽',
+		username: '恩泽',
+		userLink: '',
+		description: '泽哥的后院',
+		voteLink: 'http://jscode.me/topic/182/%E4%B8%80%E4%BD%9C%E5%93%81%E4%B8%80%E6%95%85%E4%BA%8B-%E6%81%A9%E6%B3%BD',
+		workLink: 'http://luenze.github.io/'
+	}
+
 
 
 	// {
