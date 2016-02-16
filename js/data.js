@@ -220,9 +220,9 @@ var arr = [{
 		voteLink: 'http://jscode.me/topic/176/%E4%B8%80%E4%BD%9C%E5%93%81%E4%B8%80%E6%95%85%E4%BA%8B-%E6%9D%8E%E8%81%AA%E5%8D%9A%E5%AE%A2',
 		workLink: 'http://leechpee.github.io/'
 	}, {
-		imgUrl: 'imgs/22.png',
-		type: 'w',
-		coverColor: '#221e1f',
+		imgUrl: 'imgs/18.png',
+		type: 'r',
+		coverColor: '#c95031',
 		coverWord: '凯',
 		username: '马凯',
 		userLink: 'http://weather.coding.io/',
@@ -230,9 +230,9 @@ var arr = [{
 		voteLink: 'http://jscode.me/topic/178/%E4%B8%80%E4%BD%9C%E5%93%81%E4%B8%80%E6%95%85%E4%BA%8B-%E9%A9%AC%E5%87%AF%E5%8D%9A%E5%AE%A2',
 		workLink: 'http://weather.coding.io/'
 	}, {
-		imgUrl: 'imgs/22.png',
-		type: 'x',
-		coverColor: '#ecb1c5',
+		imgUrl: 'imgs/19.png',
+		type: 's',
+		coverColor: '#6b3922',
 		coverWord: '东',
 		username: '云东',
 		userLink: 'http://tukomi.me/about',
@@ -241,9 +241,9 @@ var arr = [{
 		workLink: 'http://tukomi.me/'
 	},
 	{
-		imgUrl: 'imgs/22.png',
-		type: 'x',
-		coverColor: '#ecb1c5',
+		imgUrl: 'imgs/20.png',
+		type: 't',
+		coverColor: '#221e1f',
 		coverWord: '泽',
 		username: '恩泽',
 		userLink: '',
